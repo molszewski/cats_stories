@@ -3,8 +3,16 @@ node_js:
   - 0.10
 
 before_install:
-  - "export DISPLAY=:99.0"
-  - "sh -e /etc/init.d/xvfb start"
+  - export DISPLAY=:99.0
+  - sh -e /etc/init.d/xvfb start
 
 script:
-  - "./scripts/test-all.sh"
+  - ./scripts/test-all.sh
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: c3ZQbbw49N4i5hHcdRbOAVeVcvKcpUf26BTAs4PBuEBHQYBEOy6enRCpDAMjaW5Te/4wwITYRh6WjCiT8DL6PO8kxx8sKAucxNO69eSNwqXqbdcN+K1hfX3o/0d9NUxvcRmPRP1j5Aoivlfl7Ztyqs2bTrpM3Dal71x8P/NZ12o=
+  app: cats-stories
+  on:
+    repo: molszewski/cats_stories
