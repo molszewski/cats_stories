@@ -23,8 +23,8 @@ describe('cats stroies', function() {
         toMatch(/Stories So Far/);
     });
     
-    it('should render stories view with "Nina In Hiding" story when user navigates to /stories', function() {
-      expect(element.all(by.css('[ng-view] h2')).first().getText()).
+    it('should render stories view with "Nina In Hiding" as last story when user navigates to /stories', function() {
+      expect(element.all(by.css('[ng-view] h2')).last().getText()).
         toMatch(/Nina in hiding/);
     });
 
