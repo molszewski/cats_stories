@@ -1,17 +1,16 @@
 [
     {
         "id": "1",
-        "title": "Nina in hiding",
         "images": [
             {
                 "caption": "I'm in hiding, can you find me?",
                 "path": "img/nina_in_hiding/nina.jpg"
             }
-        ]            
+        ],
+        "title": "Nina in hiding"
     },
     {
         "id": "2",
-        "title": "A castle, a cat and a monster",
         "images": [
             {
                 "caption": "Must be the reason why I'm king of my castle",
@@ -33,6 +32,32 @@
                 "caption": "OH MY FUCKEN GOD A MONSTER!!!!!!!!! Ruuuuuun!!!!",
                 "path": "img/nina_molly_castle/castle5.jpg"
             }
-        ]
+        ],
+        "title": "A castle, a cat and a monster"
+    },
+    {
+        "id": "3",
+        "images": [
+            {
+                "caption": "",
+                "path": "img/speaking_lolcat/first_lolcat.jpg"
+            }
+        ],
+        "title": "Speaking lolcat: not first time, nor last"
+    },
+    {
+        "id": "4",
+        "images": [
+            {
+                "caption": "Hello can you find me?",
+                "path": "img/molly_in_hiding/molly.jpg"
+            },
+            {
+                "caption": "...epic fail...",
+                "path": "img/molly_in_hiding/first_attempt_at_answer.jpg"
+            }
+        ],
+        "title": "Molly is hiding too.. please find her!!!"
     }
+    
 ]
