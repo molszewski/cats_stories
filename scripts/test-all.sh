@@ -11,12 +11,12 @@ trap cleanUp EXIT
 # Define reasonable set of browsers in case we are running manually from commandline
 if [[ -z "$BROWSERS" ]]
 then
-  BROWSERS="Chrome"
+  BROWSERS="Firefox"
 fi
 
 if [[ -z "$BROWSERS_E2E" ]]
 then
-  BROWSERS_E2E="Chrome"
+  BROWSERS_E2E="Firefox"
 fi
 
 ROOT_DIR=`dirname $0`/..
