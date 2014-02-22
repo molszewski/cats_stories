@@ -8,5 +8,31 @@
                 "path": "img/nina_in_hiding/nina.jpg"
             }
         ]            
+    },
+    {
+        "id": "2",
+        "title": "A castle, a cat and a monster",
+        "images": [
+            {
+                "caption": "Must be the reason why I'm king of my castle",
+                "path": "img/nina_molly_castle/castle1.jpg"
+            },
+            {
+                "caption": "...And here is my castle!!!",
+                "path": "img/nina_molly_castle/castle2.jpg"
+            },
+            {
+                "caption": "Oooh so nice castle let's go in!!!",
+                "path": "img/nina_molly_castle/castle3.jpg"
+            },
+            {
+                "caption": "Aaarghhh WTF????!!!!!!",
+                "path": "img/nina_molly_castle/castle4.jpg"
+            },
+            {
+                "caption": "OH MY FUCKEN GOD A MONSTER!!!!!!!!! Ruuuuuun!!!!",
+                "path": "img/nina_molly_castle/castle5.jpg"
+            }
+        ]
     }
 ]
