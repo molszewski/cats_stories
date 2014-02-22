@@ -2,7 +2,7 @@
 
 <div class="stories">
     <ul>
-        <li ng-repeat="story in stories">
+        <li ng-repeat="story in stories | orderBy:'-id'">
             <h2>{{story.title}}</h2>
             <ul>
                 <li ng-repeat="image in story.images">
