@@ -1,0 +1,9 @@
+/* app css stylesheet */
+
+.stories ul {
+    list-style: none;
+}
+
+.thumbnail {
+    width: 640px;
+}

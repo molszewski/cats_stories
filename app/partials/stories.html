@@ -1,0 +1,15 @@
+<h1>Stories So Far</h1>
+
+<div class="stories">
+    <ul>
+        <li ng-repeat="story in stories">
+            <h2>{{story.title}}</h2>
+            <ul>
+                <li ng-repeat="image in story.images">
+                    <p>{{image.caption}}</p>
+                    <p><a href="{{image.path}}"><img ng-src="{{image.path}}" class="thumbnail" alt="{{image.caption}}"/></a></p>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>

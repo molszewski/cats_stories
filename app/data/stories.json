@@ -1,0 +1,12 @@
+[
+    {
+        "id": "1",
+        "title": "Nina in hiding",
+        "images": [
+            {
+                "caption": "I'm in hiding, can you find me?",
+                "path": "img/nina_in_hiding/nina.jpg"
+            }
+        ]            
+    }
+]
