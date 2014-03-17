@@ -58,6 +58,16 @@
             }
         ],
         "title": "Molly is hiding too.. please find her!!!"
+    },
+    {
+        "id": "5",
+        "images": [
+            {
+                "caption": "Did you bring my coffee?! No???? You're fired!!!",
+                "path": "img/nina_the_executive/2014-03-17_07.10.39.jpg"
+            }
+        ],
+        "title": "Nina in \"the executive chair\""
     }
     
 ]
